@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chuxin.wxpoc"
+    android:versionCode="1"
+    android:versionName="0.1.0">
+
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="34"/>
+
+    <application android:label="WXPOC" android:allowBackup="false">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposedminversion" android:value="93"/>
+        <meta-data android:name="xposeddescription"
+            android:value="锚点流水线 POC: 防撤回/朋友圈删除 事件观测 + 诊断日志, 全本地零网络"/>
+    </application>
+</manifest>
