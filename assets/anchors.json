@@ -1,0 +1,36 @@
+{
+  "schema": "chuxin-wxpoc/1",
+  "host_pkg": "com.tencent.mm",
+  "note": "类名事实来源: lexin anchors.json (MIT) 8.0.76/78/80 版本表; 8.0.80 短名条目 POC 跳过",
+  "versions": {
+    "8.0.76": {
+      "code": 3140,
+      "classes": {
+        "sysmsg_parser": "com.tencent.mm.sdk.platformtools.aa",
+        "sns_db": ["ka5.b0", "ka5.z"],
+        "sns_db2": ["ka5.b0", "ka5.z"]
+      }
+    },
+    "8.0.78": {
+      "code": 3180,
+      "classes": {
+        "sysmsg_parser": "com.tencent.mm.sdk.platformtools.fa",
+        "sns_db": ["kh5.b0", "kh5.z"],
+        "sns_db2": ["kh5.b0", "kh5.z"]
+      }
+    },
+    "8.0.80": {
+      "code": 3220,
+      "classes": {
+        "sysmsg_parser": "com.tencent.mm.sdk.platformtools.ja",
+        "sns_db": "ae.s",
+        "sns_db2": "t93.l"
+      }
+    }
+  },
+  "slots": {
+    "sysmsg_parser": "d(java.lang.String,java.lang.String,java.lang.String)",
+    "sns_db": "A(java.lang.String,java.lang.String)",
+    "sns_db2": "H(java.lang.String,java.lang.String,java.lang.Object[])"
+  }
+}
